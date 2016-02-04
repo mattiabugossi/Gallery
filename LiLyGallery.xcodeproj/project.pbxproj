@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		49D24A971C59DF860060E1BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D24A961C59DF860060E1BD /* AppDelegate.swift */; };
-		49D24A991C59DF860060E1BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D24A981C59DF860060E1BD /* ViewController.swift */; };
 		49D24A9C1C59DF860060E1BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D24A9A1C59DF860060E1BD /* Main.storyboard */; };
 		49D24A9E1C59DF860060E1BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D24A9D1C59DF860060E1BD /* Assets.xcassets */; };
 		49D24AA11C59DF860060E1BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D24A9F1C59DF860060E1BD /* LaunchScreen.storyboard */; };
+		49D24AA91C59DFE50060E1BD /* GalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D24AA81C59DFE50060E1BD /* GalleryCollectionViewController.swift */; };
+		49D24AAB1C59E2760060E1BD /* PhotosDataSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49D24AAA1C59E2760060E1BD /* PhotosDataSource.plist */; };
+		49D24AAD1C59E5670060E1BD /* GalleryStackLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D24AAC1C59E5670060E1BD /* GalleryStackLayout.swift */; };
+		49D24AC31C59FC0F0060E1BD /* AlbumCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D24AC21C59FC0F0060E1BD /* AlbumCollectionViewController.swift */; };
+		49FF48771C5B220D00727852 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF48761C5B220D00727852 /* DetailViewController.swift */; };
+		49FF487D1C5B2CB000727852 /* ZOZolaZoomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FF487C1C5B2CB000727852 /* ZOZolaZoomTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		49D24A931C59DF860060E1BD /* LiLyGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiLyGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D24A961C59DF860060E1BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49D24A981C59DF860060E1BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		49D24A9B1C59DF860060E1BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49D24A9D1C59DF860060E1BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49D24AA01C59DF860060E1BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49D24AA21C59DF860060E1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D24AA81C59DFE50060E1BD /* GalleryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewController.swift; sourceTree = "<group>"; };
+		49D24AAA1C59E2760060E1BD /* PhotosDataSource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PhotosDataSource.plist; sourceTree = "<group>"; };
+		49D24AAC1C59E5670060E1BD /* GalleryStackLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryStackLayout.swift; sourceTree = "<group>"; };
+		49D24AC21C59FC0F0060E1BD /* AlbumCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewController.swift; sourceTree = "<group>"; };
+		49FF486F1C5B1F3400727852 /* LiLyGallery-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LiLyGallery-Bridging-Header.h"; sourceTree = "<group>"; };
+		49FF48761C5B220D00727852 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		49FF487B1C5B2CB000727852 /* ZOZolaZoomTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOZolaZoomTransition.h; sourceTree = "<group>"; };
+		49FF487C1C5B2CB000727852 /* ZOZolaZoomTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOZolaZoomTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +67,18 @@
 			isa = PBXGroup;
 			children = (
 				49D24A961C59DF860060E1BD /* AppDelegate.swift */,
-				49D24A981C59DF860060E1BD /* ViewController.swift */,
+				49D24AA81C59DFE50060E1BD /* GalleryCollectionViewController.swift */,
+				49D24AAC1C59E5670060E1BD /* GalleryStackLayout.swift */,
+				49D24AC21C59FC0F0060E1BD /* AlbumCollectionViewController.swift */,
+				49FF48761C5B220D00727852 /* DetailViewController.swift */,
+				49FF487B1C5B2CB000727852 /* ZOZolaZoomTransition.h */,
+				49FF487C1C5B2CB000727852 /* ZOZolaZoomTransition.m */,
 				49D24A9A1C59DF860060E1BD /* Main.storyboard */,
-				49D24A9D1C59DF860060E1BD /* Assets.xcassets */,
 				49D24A9F1C59DF860060E1BD /* LaunchScreen.storyboard */,
 				49D24AA21C59DF860060E1BD /* Info.plist */,
+				49D24AAA1C59E2760060E1BD /* PhotosDataSource.plist */,
+				49D24A9D1C59DF860060E1BD /* Assets.xcassets */,
+				49FF486F1C5B1F3400727852 /* LiLyGallery-Bridging-Header.h */,
 			);
 			path = LiLyGallery;
 			sourceTree = "<group>";
@@ -122,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D24AAB1C59E2760060E1BD /* PhotosDataSource.plist in Resources */,
 				49D24AA11C59DF860060E1BD /* LaunchScreen.storyboard in Resources */,
 				49D24A9E1C59DF860060E1BD /* Assets.xcassets in Resources */,
 				49D24A9C1C59DF860060E1BD /* Main.storyboard in Resources */,
@@ -135,8 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49D24A991C59DF860060E1BD /* ViewController.swift in Sources */,
+				49D24AC31C59FC0F0060E1BD /* AlbumCollectionViewController.swift in Sources */,
 				49D24A971C59DF860060E1BD /* AppDelegate.swift in Sources */,
+				49FF487D1C5B2CB000727852 /* ZOZolaZoomTransition.m in Sources */,
+				49D24AA91C59DFE50060E1BD /* GalleryCollectionViewController.swift in Sources */,
+				49D24AAD1C59E5670060E1BD /* GalleryStackLayout.swift in Sources */,
+				49FF48771C5B220D00727852 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +271,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LiLyGallery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattiabugossi.LiLyGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LiLyGallery/LiLyGallery-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -258,10 +285,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LiLyGallery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattiabugossi.LiLyGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LiLyGallery/LiLyGallery-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -284,6 +313,7 @@
 				49D24AA71C59DF860060E1BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
